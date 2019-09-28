@@ -1,0 +1,25 @@
+
+public class GeneralManufaturingProcess {
+	
+	String processName;
+	
+	public GeneralManufaturingProcess(String processName) {
+		this.processName = processName;
+	}
+	
+	protected void assembleDevice() {
+		
+	}
+	
+	protected void testDevice() {
+		
+	}
+	
+	protected void packageDevice() {
+		
+	}
+	
+	protected void storeDevice() {
+		
+	}
+}

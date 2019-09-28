@@ -1,0 +1,7 @@
+
+public class SchoolStaff {
+	private String name;
+	private void makeAnouncement() {
+		
+	}
+}

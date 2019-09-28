@@ -1,0 +1,14 @@
+
+public class HospitalManagement {
+	public void callUpon(Employee em) {
+		if (em instanceof Nurse) {
+			em.checkVitalSigns();
+			drawBlood();
+			cleanPatientArea();
+		} else if (em instanceof Doctor) {
+			prescribeMedicine();
+			diagnosePatient();
+		}
+	}
+	
+}

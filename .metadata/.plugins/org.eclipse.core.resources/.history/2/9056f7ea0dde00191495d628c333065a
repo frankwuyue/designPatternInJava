@@ -1,0 +1,14 @@
+import domain.Employee;
+
+public class EmployeeReportFormatter extends ReportFormatter{
+	private Employee anEmployee;
+	private FormatType formatType;
+	public void getFormattedEmployee() {
+		switch (formatType) {
+		case CSV:
+			
+		default:
+			break;
+		}
+	}
+}

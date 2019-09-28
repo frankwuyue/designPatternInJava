@@ -1,0 +1,17 @@
+import java.sql.SQLException;
+
+public class ClientModule {
+	public void hireNewEmployee(Employee employee) throws SQLException {
+		EmployeeDAO employeeDAO = new EmployeeDAO();
+		employeeDAO.saveEmployee(employee);
+	}
+	
+	public void terminateEmployee(Employee employee) throws SQLException {
+		EmployeeDAO employeeDAO = new EmployeeDAO();
+		employeeDAO.deleteEmployee(employee);
+	}
+	
+	public void printEmployee(Employee employee) {
+		
+	}
+}

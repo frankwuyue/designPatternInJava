@@ -1,0 +1,16 @@
+import java.sql.Connection;
+
+public class EmployeeDAO {
+	
+	public void saveEmployee(Employee employee) {
+		DatabaseConnectionManager connectionManager = DatabaseConnectionManager.getManagerInstance();
+		connectionManager.connect();
+		Connection connection = connectionManager.getConnectionObject();
+		
+		connectionManager.disconnect();
+	}
+	
+	public void deleteEmployee(Employee employee) {
+		
+	}
+}

@@ -1,0 +1,12 @@
+
+public class EmployeeManagement {
+	private EmployeeDAO dao;
+	
+	public void hireNewEmployee(Employee employee) {
+		dao.addEmployee(employee);
+	}
+	
+	public void changeEmployeeName(int id, String name) {
+		dao.changeEmployeeName(id, name);
+	}
+}

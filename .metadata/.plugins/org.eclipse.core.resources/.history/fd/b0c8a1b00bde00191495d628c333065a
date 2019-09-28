@@ -1,0 +1,20 @@
+
+public class DatabaseConnectionManager {
+	private DatabaseConnectionManager INSTANCE = new DatabaseConnectionManager();
+	
+	public DatabaseConnectionManager getManagerInstance() {
+		return INSTANCE;
+	}
+	
+	public void connect() {
+		
+	}
+	
+	public void getConnectionObject() {
+		
+	}
+	
+	public void disconnect() {
+		
+	}
+}

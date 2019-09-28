@@ -1,0 +1,11 @@
+
+public class SchoolStaff {
+	private String name;
+	private void makeAnouncement() {
+		System.out.println("Make announcement.");
+	}
+	
+	private void collectPaperwork() {
+		System.out.println("Collect paperwork");
+	}
+}

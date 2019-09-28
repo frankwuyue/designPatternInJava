@@ -1,0 +1,10 @@
+
+public class MathTeacher extends SchoolStaff implements CouseInstructor {
+
+	@Override
+	public void teach() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,27 @@
+import java.util.List;
+
+public class TextProcessor {
+	private StringBuilder stringBuilder;
+	private ListStategy listStategy;
+	
+	public TextProcessor(OutputFormat outputFormat) {
+		setTextProcessor(outputFormat);
+	}
+
+	private void setTextProcessor(OutputFormat outputFormat) {
+		switch (outputFormat) {
+		case MARKDOWN:
+			this.listStategy = new MarkdownListStrategy();
+		case HTML:
+			this.listStategy = new HtmlListStategy();
+		}
+	}
+	
+	public void appendList(List<String> items) {
+		listStategy.start(stringBuilder);
+		for (String item : items) {
+			listStategy.addListItem(stringBuilder, item);
+		}
+		listStategy.end(stringBuilder);
+	}
+}

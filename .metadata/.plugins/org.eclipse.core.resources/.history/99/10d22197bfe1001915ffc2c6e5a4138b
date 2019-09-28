@@ -1,0 +1,8 @@
+
+public class EmployeeManagement {
+	private EmployeeDAO dao;
+	
+	public void hireNewEmployee(Employee employee) {
+		dao.addEmployee(employee);
+	}
+}

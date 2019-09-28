@@ -1,0 +1,32 @@
+
+public class LaptopManufacturingProcess extends GeneralManufaturingProcess {
+
+	public LaptopManufacturingProcess(String processName) {
+		super(processName);
+	}
+
+	@Override
+	protected void assembleDevice() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void testDevice() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void packageDevice() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void storeDevice() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

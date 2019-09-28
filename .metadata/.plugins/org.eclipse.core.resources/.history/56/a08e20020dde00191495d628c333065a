@@ -1,0 +1,14 @@
+
+public class ClientModule {
+	public void hireNewEmployee(Employee employee) {
+		
+	}
+	
+	public void terminateEmployee(Employee employee) {
+		
+	}
+	
+	public void printEmployee(Employee employee) {
+		
+	}
+}

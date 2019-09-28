@@ -1,0 +1,12 @@
+package parts;
+
+public class LargeEngine implements Engine{
+
+	private int horsePower;
+	
+	public void startEngine() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class HrDepartment implements IOobserver {
+
+	@Override
+	public void notifyToDepartment() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

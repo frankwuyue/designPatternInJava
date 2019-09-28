@@ -1,0 +1,10 @@
+package parts;
+
+public class SmallEngine implements Engine {
+
+	public void startEngine() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

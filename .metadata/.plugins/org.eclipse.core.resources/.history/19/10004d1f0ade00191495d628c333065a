@@ -1,0 +1,8 @@
+
+public class DatabaseConnectionManager {
+	private DatabaseConnectionManager INSTANCE = new DatabaseConnectionManager();
+	
+	public DatabaseConnectionManager getManagerInstance() {
+		return INSTANCE;
+	}
+}

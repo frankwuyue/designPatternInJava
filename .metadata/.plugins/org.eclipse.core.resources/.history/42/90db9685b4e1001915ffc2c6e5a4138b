@@ -1,0 +1,5 @@
+import org.omg.CosNaming.NamingContextExtPackage.StringNameHelper;
+
+public class Product {
+	private StringNameHelper 
+}

@@ -1,0 +1,18 @@
+
+public class HtmlListStategy implements ListStategy {
+
+	@Override
+	public void start(StringBuilder sBuilder) {
+		sBuilder.append("<ul>").append(System.lineSeparator());
+	}
+	
+	@Override
+	public void addListItem(StringBuilder sBuilder, String item) {
+
+	}
+
+	@Override
+	public void end(StringBuilder sBuilder) {
+		sBuilder.append("</ul>").append(System.lineSeparator());
+	}
+}

@@ -1,0 +1,6 @@
+
+public interface ListStategy {
+	default void start() {};
+	void addListItem();
+	default void end() {};
+}

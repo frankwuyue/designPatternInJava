@@ -1,0 +1,9 @@
+package parts;
+
+public class SmallEngine implements Engine {
+
+	public void startEngine() {
+		System.out.println("started large engine" + horsePower + "hp engine.");
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class CustomerTransaction {
+	public void getName() {
+		return "name";
+	}
+	
+	public void getDate() {
+		return new Date();
+	}
+	
+	public void getProductBreakDown() {
+		
+	}
+	
+	public void prepareInvoice() {
+		
+	}
+	
+	public void chargeCustomer() {
+		
+	}
+}

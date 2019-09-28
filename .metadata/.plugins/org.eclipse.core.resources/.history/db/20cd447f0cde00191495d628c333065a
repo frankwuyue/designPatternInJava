@@ -1,0 +1,17 @@
+import java.sql.Connection;
+import java.sql.SQLException;
+
+public class EmployeeDAO {
+	
+	public void saveEmployee(Employee employee) throws SQLException {
+		DatabaseConnectionManager connectionManager = DatabaseConnectionManager.getManagerInstance();
+		connectionManager.connect();
+		connectionManager.getConnectionObject().prepareStatement("insert into Employee_tb1");
+		
+		connectionManager.disconnect();
+	}
+	
+	public void deleteEmployee(Employee employee) {
+		
+	}
+}

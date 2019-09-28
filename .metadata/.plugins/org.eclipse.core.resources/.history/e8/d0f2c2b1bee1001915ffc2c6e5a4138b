@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class EmployeeDAO {
+	
+	private List<Employee> employees = generateEmployees();
+	
+	private List<Employee> generateEmployees() {
+		List<Employee> employees = new ArrayList<Employee>();
+		employees.add(new Employee("Frank", new Date(20180608L), 5000000, true));
+		employees.add(new Employee("PP", new Date(20190608L), 5500000, true));
+		employees.add(new Employee("Takahashi", new Date(20130608L), 4000000, true));
+		employees.add(new Employee("Taniyama", new Date(20140608L), 3500000, true));
+		employees.add(new Employee("Tian", new Date(20150608L), 5600000, true));
+		return employees;
+	}
+	
+	public List<Employee> getEmployees() {
+		return employees;
+	}
+	
+}

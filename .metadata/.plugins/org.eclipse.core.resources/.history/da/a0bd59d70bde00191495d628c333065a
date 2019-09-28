@@ -1,0 +1,26 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DatabaseConnectionManager {
+	
+	private Connection connection;
+	
+	private DatabaseConnectionManager INSTANCE = new DatabaseConnectionManager();
+	
+	public DatabaseConnectionManager getManagerInstance() {
+		return INSTANCE;
+	}
+	
+	public void connect() {
+		connection = DriverManager.getConnection("someurl");
+		System.out.println("Establishing Database connection.");
+	}
+	
+	public void getConnectionObject() {
+		
+	}
+	
+	public void disconnect() {
+		
+	}
+}

@@ -1,0 +1,9 @@
+
+public class HrDepartment implements IOobserver {
+
+	@Override
+	public void notifyToDepartment() {
+		System.out.println("HrDepartment got notified.");
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class EmployeeDAO {
+	DatabaseConnectionManager connectionManager;
+	public void saveEmployee(Employee employee) {
+		
+	}
+	
+	public void deleteEmployee(Employee employee) {
+		
+	}
+}

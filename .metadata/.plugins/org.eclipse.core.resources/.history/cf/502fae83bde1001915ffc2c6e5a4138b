@@ -1,0 +1,14 @@
+import java.util.Date;
+
+public class Employee {
+	private String name;
+	private Date hireDate;
+	private int salary;
+	private boolean working = false;
+	
+	public int employeeId;
+	
+	private static int COUNTER;
+	
+	
+}

@@ -1,0 +1,33 @@
+
+public class HospitalManagement {
+	public void callUpon(Employee em) {
+		if (em instanceof Nurse) {
+			checkVitalSigns();
+			drawBlood();
+			cleanPatientArea();
+		} else if (em instanceof Doctor) {
+			prescribeMedicine();
+			diagnosePatient();
+		}
+	}
+	
+	private void checkVitalSigns() {
+		System.out.println("check vital");
+	}
+	
+	private void drawBlood() {
+		System.out.println("draw blood");
+	}
+	
+	private void cleanPatientArea() {
+		System.out.println("clean patient area");
+	}
+	
+	private void prescribeMedicine() {
+		System.out.println("prescribe medicine");
+	}
+	
+	private void diagnosePatient() {
+		System.out.println("diagnose patient");
+	}
+}

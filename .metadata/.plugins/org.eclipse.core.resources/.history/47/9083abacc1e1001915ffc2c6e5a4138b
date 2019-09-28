@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeManagement {
+	private EmployeeDAO dao;
+	private List<IOobserver> oobservers = new ArrayList<IOobserver>();
+	
+	
+	public void hireNewEmployee(Employee employee) {
+		dao.addEmployee(employee);
+		notifyOberservers();
+	}
+	
+	public void changeEmployeeName(int id, String name) {
+		dao.changeEmployeeName(id, name);
+		notifyOberservers();
+	}
+	
+	private void notifyOberservers() {
+		for (IOobserver iOobserver : oobservers) {
+			iOobserver.notifyToDepartment();
+		}
+	}
+	
+	public void registerOberserver(IOobserver oobserver) {
+		oobservers.add(oobserver);
+	}
+}

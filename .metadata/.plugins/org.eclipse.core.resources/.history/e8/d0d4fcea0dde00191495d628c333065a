@@ -1,0 +1,14 @@
+
+public class ReportFormatter {
+	private String convertObjectToXML (Object object) {
+		return null;
+	}
+	
+	private String convertObjectToCSV (Object object) {
+		return null;
+	}
+	
+	public String getFormmatedValue() {
+		return null;
+	}
+}

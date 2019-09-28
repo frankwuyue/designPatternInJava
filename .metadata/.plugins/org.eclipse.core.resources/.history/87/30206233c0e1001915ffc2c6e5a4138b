@@ -1,0 +1,4 @@
+
+public interface IOobserver {
+	public void notifyAll();
+}

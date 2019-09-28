@@ -1,0 +1,10 @@
+
+public class MarkdownListStrategy implements ListStategy {
+
+	@Override
+	public void addListItem(StringBuilder sBuilder, String item) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

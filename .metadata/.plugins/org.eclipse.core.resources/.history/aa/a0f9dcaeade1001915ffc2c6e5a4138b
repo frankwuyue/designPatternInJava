@@ -1,0 +1,28 @@
+
+public class LaptopManufacturingProcess extends GeneralManufaturingProcess {
+
+	@Override
+	protected void assembleDevice() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void testDevice() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void packageDevice() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void storeDevice() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

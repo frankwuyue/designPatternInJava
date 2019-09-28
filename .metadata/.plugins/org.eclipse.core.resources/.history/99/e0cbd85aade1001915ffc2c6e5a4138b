@@ -1,0 +1,18 @@
+
+public class GeneralManufaturingProcess {
+	protected void assembleDevice() {
+		
+	}
+	
+	protected void testDevice() {
+		
+	}
+	
+	protected void packageDevice() {
+		
+	}
+	
+	protected void storeDevice() {
+		
+	}
+}

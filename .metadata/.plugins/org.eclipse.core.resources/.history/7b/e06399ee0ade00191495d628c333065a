@@ -1,0 +1,8 @@
+
+public class EmployeeReportFormatter extends ReportFormatter{
+	private Employee anEmployee;
+	private FormatType formatType;
+	public void getFormattedEmployee() {
+		return null;
+	}
+}

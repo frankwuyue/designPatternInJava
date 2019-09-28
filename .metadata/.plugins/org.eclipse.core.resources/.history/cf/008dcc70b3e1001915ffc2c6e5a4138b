@@ -1,0 +1,16 @@
+
+public class AccountReceivable {
+	private CustomerTransaction customerTransaction;
+	
+	public AccountReceivable(CustomerTransaction customerTransaction) {
+		this.customerTransaction = customerTransaction;
+	}
+	
+	public void postPayment() {
+		customerTransaction.chargeCustomer();
+	}
+	
+	public void sendInvoice() {
+		customerTransaction.prepareInvoice();
+	}
+}
